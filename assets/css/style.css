@@ -18,7 +18,7 @@ h2 {
     margin-top: 30px;
     height: 100vh;
 }
-
+/*Создаем таблицу CSS */
 .table {
     display: table;   
     width: 100%;
@@ -61,6 +61,7 @@ h2 {
     margin: 3px 0;
 }
 
+/* В медиа запросах сбрасываем таблицу CSS и задаем ей блочные параметры*/
 @media (max-width: 900px) {
     .container {
         max-width: 1170px;
@@ -87,7 +88,8 @@ h2 {
         width: 100%;
         border-bottom: none;
     }
-
+    
+/* Псевдоклассом :before выводим блоки с заголовком из дата атрибута */
     .row .col:before {
         display: block;
         margin-bottom: 4px;
